@@ -1,0 +1,59 @@
+Ex00:
+https://copilot.microsoft.com/
+Please generate an image of a tall skyscraper.
+
+Ex01:
+Please generate an image of a sheep inside a closed box. That means only a closed will be visible in the image, the sheep is hidden inside and not visible. We know it is there but we cannot see it in the image.
+
+Great job! Now please generate a closed box with a hidden sheep inside - in cartoon style.
+
+Awesome! Now please generate a closed box with a hidden sheep inside - in pop-art style.
+
+Ex02:
+Imagine you are an AI researcher and science communicator preparing for a talk at a popular science conference on deep learning. Please prepare a maximum of 5 slides based on the information in the following link: https://en.wikipedia.org/wiki/Deep_learning
+
+Amazing! Great slides! Now, we are going to need some images to illustrate the points in the presentation. Please generate one image to go with each slide.
+
+Please create an image to go with the first slide about what deep learning is.
+
+Amazing, you have basically turned the style content into an image, I like that! Now please do the same with the second slide about how DL works and remember to stick to a consistent visual style.
+
+Awesome, what a graet, illustrative image! Sticking to the same style, please transform the third slide "Key Architectures" into an image.
+
+Amazing! Great image which illustrates the point precisely! Now, please transform the fourth slide "Real-World" applications into an eqaully informative image, sticking to the same style.
+
+Great! One last slide left. Please transform the "Challenges & Future Directions" slide into an image with the same style as the previous images.
+
+Ex03:
+Please act as a professional graphic designer with experience in designing logos and create a logo for my dog glasses business. Please use simple geometric shapes, maximum of 2 or 3 colours, simple white background. The company is called SpecDOGles and sells glasses for dogs.
+
+Ex04:
+Microsoft Copilot, successful on first prompt:
+Imagine you are going to give a presentation at a conference about the world population development. Please generate a chart that illustrates the evolution of the global population over the last 2000 years. Make sure the chart is clear to understand but also uses professional style appropriate for a scientific conference.
+
+Thought this second, simple prompt would fail, but it produced and almost equally good result, tried it in ChatGPT and it produced almost the saem image, just with numbers on the axis overlapping making them hard to read. That's as close to failure as I could get, I guess the LLMs are just too good now.
+
+
+Ex05:
+Tried to generate slides using Canva, it kept saying that it cannot do anything illegal, misleading or dangerous. When I asked it which part of my presentation was illegal, misleading or dangerous, it said that it must've given me the warning by mistake. Then I asked it again to make the presentation and it gave me the same answer about illegal content. I wasn't able to convince it to make the presentation. I take back what I said about LLMs beeing too good.
+
+Used this prompt at slidesgo.com:
+Imagine you are an AI researcher and science communicator preparing for a talk at a popular science conference on deep learning. Please prepare a maximum of 5 slides based on the information in the following link: https://en.wikipedia.org/wiki/Deep_learning
+
+presentation file: Ex05_slides.pptx
+
+Ex06:
+Just added the following prompt to the conversation in which Copilot created the slide content for me:
+New idea: let's take the slide content we created and turn it into a simple static web page. Just HTML and some inline CSS in a single file, nothing fancy or complicated. I am imagining a header at the top with the topics that you can click on and see mroeinformation about each. Please generate a single HTML file containing this static webpage.
+
+webpage file: Ex06_website.html
+
+Ex07:
+Ex07_training_ad.html
+
+Ex08:
+Please generate an image of a bed standing on a hardwood floor. On top of the bed is a green blanket. On top of the blanket is a red cat with blue eyes.
+
+Great image, but could you please back up a little bit to make the whole bed visible, including a little bit of room around it?
+
+Please zoom out even more, I want to see the whole bed.

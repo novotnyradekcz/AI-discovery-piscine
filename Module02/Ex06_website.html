@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deep Learning Overview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .topic {
+      background-color: #fff;
+      margin: 15px auto;
+      padding: 15px;
+      width: 80%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .topic h2 {
+      cursor: pointer;
+      margin: 0;
+      padding: 10px;
+      background-color: #e2e2e2;
+      border-radius: 5px;
+    }
+    .content {
+      display: none;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #f9f9f9;
+      border-left: 3px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deep Learning Overview</h1>
+  </header>
+
+  <div class="topic">
+    <h2 onclick="toggleContent('topic1')">What Is Deep Learning?</h2>
+    <div class="content" id="topic1">
+      Deep learning is a subset of machine learning that uses multi-layered neural networks to learn from data. It automatically extracts features from raw input and excels at tasks like image and speech recognition.
+    </div>
+  </div>
+
+  <div class="topic">
+    <h2 onclick="toggleContent('topic2')">How It Works</h2>
+    <div class="content" id="topic2">
+      Data flows through layers of artificial neurons, each transforming the input into more abstract representations. Networks learn by adjusting weights using backpropagation and gradient descent.
+    </div>
+  </div>
+
+  <div class="topic">
+    <h2 onclick="toggleContent('topic3')">Key Architectures</h2>
+    <div class="content" id="topic3">
+      <ul>
+        <li><strong>CNN</strong>: Image processing (e.g., facial recognition)</li>
+        <li><strong>RNN</strong>: Sequence modeling (e.g., speech recognition)</li>
+        <li><strong>GAN</strong>: Data generation (e.g., deepfakes, art)</li>
+        <li><strong>Transformer</strong>: Language understanding (e.g., chatbots, translation)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="topic">
+    <h2 onclick="toggleContent('topic4')">Real-World Applications</h2>
+    <div class="content" id="topic4">
+      Deep learning powers breakthroughs in healthcare (cancer detection), speech and language (voice assistants), creativity (music composition), science (climate modeling), and robotics (autonomous systems).
+    </div>
+  </div>
+
+  <div class="topic">
+    <h2 onclick="toggleContent('topic5')">Challenges & Future Directions</h2>
+    <div class="content" id="topic5">
+      Challenges include overfitting, lack of interpretability, and high data/computational demands. Future directions aim for more efficient models, better transparency, and ethical safeguards.
+    </div>
+  </div>
+
+  <script>
+    function toggleContent(id) {
+      const content = document.getElementById(id);
+      content.style.display = content.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
+

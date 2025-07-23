@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dangers of AI - Training Session</title>
+  <style>
+    .ad-flex {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .ad-text {
+      flex: 1 1 50%;
+    }
+
+    .ad-image {
+      flex: 1 1 40%;
+    }
+
+	.overview-flex {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .overview-image {
+      flex: 1 1 40%;
+    }
+
+    .overview-text {
+      flex: 1 1 55%;
+    }
+
+
+	body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background-color: #0f3460;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #e94560;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav button {
+      background-color: white;
+      color: #e94560;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    nav button:hover {
+      background-color: #fce4ec;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      display: none;
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #0f3460;
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .highlight {
+      color: #e94560;
+      font-size: 1.2rem;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding the Dangers of AI</h1>
+    <p class="highlight">Free Neighborhood Training Session – Next Week!</p>
+  </header>
+
+  <nav>
+    <button onclick="showSection('ad')">Training Ad</button>
+    <button onclick="showSection('preview')">Training Session Preview</button>
+    <button onclick="showSection('overview')">Deep Learning Overview</button>
+  </nav>
+
+  <div class="container">
+    <section id="ad" class="active">
+      <h2>📅 Event Details</h2>
+      <div class="ad-flex">
+        <div class="ad-text">
+          <p><strong>Date:</strong> Thursday, July 31<br/>
+            <strong>Time:</strong> 18:30–20:00<br/>
+            <strong>Location:</strong> Community Hall, Vinohrady, Praha
+          </p>
+          <p>
+            Join us for a thought-provoking session on the ethical, social, and technological risks posed by artificial intelligence. No registration needed—just show up!
+          </p>
+        </div>
+        <div class="ad-image">
+          <img src="Ex07_ad_img.png" alt="Training session visual" style="width:100%; border-radius:6px;" />
+        </div>
+      </div>
+    </section>
+
+
+    <section id="preview">
+      <h2>🧠 Training Session Preview</h2>
+      <p>
+        This session is designed to equip everyday citizens with the knowledge to critically engage with AI technologies. You’ll learn how AI systems work, where they’re being used, and what risks they pose to privacy, fairness, and autonomy.
+      </p>
+      <ul>
+        <li><strong>Bias and Discrimination:</strong> How AI can reinforce stereotypes and marginalize communities.</li>
+        <li><strong>Surveillance and Privacy:</strong> The role of facial recognition, predictive policing, and data harvesting.</li>
+        <li><strong>Job Automation:</strong> Which professions are most at risk and how to prepare for the shift.</li>
+        <li><strong>AI-generated Media:</strong> Spotting deepfakes and understanding their impact on truth and trust.</li>
+        <li><strong>Ethical AI:</strong> What responsible development looks like and how you can advocate for it.</li>
+        <li><strong>Hands-on Examples:</strong> We’ll walk through real-world case studies and interactive demos.</li>
+      </ul>
+    </section>
+
+    <section id="overview">
+      <h2>🔬 Deep Learning Overview</h2>
+      <div class="overview-flex">
+        <div class="overview-image">
+          <img src="Ex07_dl_img.png" alt="Deep learning concept illustration" style="width:100%; border-radius:6px;" />
+        </div>
+        <div class="overview-text">
+          <p>
+            Deep learning is a subfield of machine learning focused on neural networks with many layers. These artificial neurons are structured in layers that learn to identify patterns in data, driving everything from facial recognition to language translation.
+          </p>
+          <p>
+            Common architectures include:
+            <ul>
+              <li><strong>Convolutional Neural Networks (CNNs):</strong> Great for image and video analysis.</li>
+              <li><strong>Recurrent Neural Networks (RNNs):</strong> Ideal for sequential data like speech and text.</li>
+              <li><strong>Transformers:</strong> Powerful for natural language processing—used in modern AI like ChatGPT.</li>
+            </ul>
+          </p>
+          <p>
+            Deep learning models don’t rely on manual feature selection; instead, they learn directly from raw data. That makes them flexible but also data-hungry and computationally demanding.
+          </p>
+          <p>
+            Learn more at <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">Wikipedia’s Deep Learning page</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="footer">
+    Powered by curiosity. Organized by your neighborhood tech awareness group.
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
