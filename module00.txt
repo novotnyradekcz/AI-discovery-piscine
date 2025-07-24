@@ -1,0 +1,31 @@
+Ex00:
+Hello World!
+
+Ex01:
+https://perplexity.ai/
+- does not require login
+- does not just use training data but also searches the web
+- choice of many different models
+- recommended by other users
+
+Ex02:
+A Large Language Model (LLM) processes text by converting words into numeric vectors and using transformer layers with attention mechanisms to understand context and relationships between words. It learns language patterns by training on massive amounts of text data, predicting the next word to generate coherent and relevant responses. When given a prompt, the model produces text one token at a time, using what it has learned to create human-like language.
+
+Ex03:
+The study of mechanical reasoning and logic ultimately led to the foundation of artificial intelligence (AI) research, beginning with early theories by Alan Turing and artificial neurons by McCulloch and Pitts. AI was formally established in 1956, quickly producing programs that amazed the public, but early optimism faded as researchers underestimated the complexity, leading to reduced funding and the "AI winter" in the 1970s and late 1980s. The 1980s revival was sparked by expert systems and new approaches like connectionism and neural networks, which gained traction through successes such as recognizing handwritten digits. From the late 1990s onward, AI focused on narrow, formal tasks using mathematical methods, but efforts toward general intelligence (AGI) also emerged by the early 2000s. The field surged again in the 2010s with deep learning breakthroughs, leading to significant industrial adoption, increased funding, and concerns over ethical issues, culminating in landmark programs like AlphaGo and GPT-3 fueling a modern AI boom.
+
+Ex04:
+Marie Dupuis, the Data Protection Officer, raised concerns about the risks of sharing sensitive or personal data when using large language models (LLMs) and urged the team to establish clear guidelines and security measures to ensure GDPR compliance. Jean Lefebvre, the Chief Information Officer, agreed and proposed implementing filtering systems, conducting audits of past LLM queries, and providing training to staff. Claire Martin, Head of Legal, highlighted the legal risks and supported drafting a formal usage charter to restrict sharing sensitive information. Thomas Durand, Head of Digital Projects, recommended technical solutions to limit LLM access to sensitive data through isolated environments and offered to collaborate with Jean on this. Finally, CEO Nathalie Dupont endorsed the proposed actions, urged swift collaboration, and called for a meeting to finalize measures and communicate them company-wide.
+
+Ex05:
+Please write a short introductory paragraph about the company Microsoft, make sure to use less than 500 characters.
+
+Ex06:
+Please write a thank you and summary email of the discussion with client, based on the following meeting notes: - Meeting on Fri. Nov. 15 with BuzzAI
+- Jean dir tech.
+- product presentation: analyzing the buzz around a product
+- discussion of a demo with the tech teams -> date to be set
+- budget evaluation for 2 months of surveillance by buzzAI
+
+Ex07:
+Module 00 - complete
